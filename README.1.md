@@ -25,9 +25,8 @@ Funciones implementadas:
 - main.js: set de datos que muestra la lista de películas.
 - data.js: es donde se implementan los eventos del DOM para permitir interacción con el usuario al mostrar y ordenar la data, el cual debe estar exportado en el objeto global (window).
 - html/index: tiene la estructura de la página.
-- data.spec.js: se encuentran los tests para confirmar que window.lol es un objeto y que la función de .filter() es unafunción.
 - CSS: permite dar el diseño a la interfaz en elementos como la tipografía, color, imagen de fondo, acomodar los elementos como textos, imágenes, botones, lista desplegable, encabezado, contenido y pie de página.
-- Carpeta de imágenes: galería con los prototipos de baja y alta fidelidad.
+- Carpeta de imágenes: galería con los prototipos de baja y alta fidelidad, así como la evidencia de las encuestas realizadas.
 
 ## Ejecución de pruebas
 El boilerplate contiene la configuración necesaria para ejecutar los tests, en este caso las pruebas unitarias.
@@ -74,7 +73,13 @@ Evidencia de la encuesta inicial, realizada a 25 personas, donde sus respuestas 
 
 ##Pruebas de usabilidad
 **Problemas de usabilidad detectados a través de los tests**
-pendiente
+Después de una encuesta sobre el diseño de lo que sería la app, se encontró que no se entendía cómo funcionaba la búsqueda o el menú de búsqueda. Asimismo, se sugirió que se realizara cambio de colores y que se cambiara la forma en que funcionaría el "carrusel". Por otro lado, se pidió que se agregara un breve texto informativo indicando qué se encontraría en esa app.
+
+![GitHub Encuesta de diseño](src/encuestadiseño/pm1.png)
+![GitHub Encuesta de diseño](src/encuestadiseño/pm2.jpg)
+![GitHub Encuesta de diseño](src/encuestadiseño/pm3.jpg)
+![GitHub Encuesta de diseño](src/encuestadiseño/pm4.jpg)
+![GitHub Encuesta de diseño](src/encuestadiseño/muestra.jpg)
 
 ## Implementación de la Interfaz de Usuario (HTML/CSS/JS)
 Se muestra la data en una interfaz: un "carrusel" con las imágenes que contienen el poster, el título y el director de cada película. Al dar click a cada imagen, se desplegará una ficha que mostrará más datos de la película seleccionado.
@@ -99,7 +104,7 @@ La información se visualiza sin problemas desde distintos tamaños de pantallas
 * Todas: definir qué se haría para el entregable final, qué se agregaría y qué se modificaría con base en el feedback de la primera demo.
 * Ameyalli: escritura de código para implementar el carrusel.
 * Jaz: escritura de código para tener la función de filtro e impresión por género.
-* Katya y Maritza: modificación de producto a presentar, tener una definición más certera sobre "cine de arte", agregar las evidencias de la primera encuesta al ReadMe, redacción y elaboración para la encuesta de usabilidad.
+* Katya y Maritza: modificación de producto a presentar, tener una definición más certera sobre "cine de arte", agregar las evidencias de la primera encuesta al ReadMe, redacción y elaboración para la encuesta de usabilidad. Discusión entre squad para considerar el feedback y realizar los cambios pertinentes.
 
 ##Fuentes consultadas
 * http://capitaljovenisic.org.mx/blog/post/
