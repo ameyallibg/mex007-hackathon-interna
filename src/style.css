@@ -355,16 +355,16 @@ body{
 .dir{
     text-align: center;
     font-size: 1.5vw;
-    
+    height:3em;
     font-family: Laila;  
 }
 .poster{
     width: 45%;
     float: left;
-    /* height: 6em; */
+    height: 6em;
     margin-left: 2%;
-    margin-top: 3px;
-    height: auto; 
+   margin-bottom:2%;
+    
 
 }
 
@@ -442,6 +442,13 @@ body{
 .director{
     height: 7em;
 
+}
+.award{
+    height:3em;
+
+}
+body{
+    background:#7b7b7b;
 }
 }
 
