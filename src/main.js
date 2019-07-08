@@ -42,8 +42,8 @@ const drawMovies = (arrayMovies) => {
 
         <p class="genremov">${dataMovies.Genre}</p>
         <p class="dir">Director: ${dataMovies.Director}</p>
-        <p class="rate"> Ranking: ${dataMovies.imdbRating}</p></br>
-        <p class="award"> ${dataMovies.Awards}</p></br>
+        <p class="rate"> Ranking: ${dataMovies.imdbRating}</p>
+        <p class="award"> ${dataMovies.Awards}</p>
         <p class="plot">°${dataMovies.Plot}</p>
         <img class="poster" src="${dataMovies.Poster}"/>
         
@@ -60,9 +60,9 @@ const drawTop = (arrayMovies) => {
     <div class="movie-card">
       <p class="title">${dataMovies.Title}</p>
       <p class="plot">°${dataMovies.Plot}</p>
-      <p class="dir">Director: ${dataMovies.Director}</p></br>
-      <p class="dir"> ${dataMovies.imdbRating}</p></br>
-      <p class="dir">Director: ${dataMovies.Awards}</p></br>
+      <p class="dir">Director: ${dataMovies.Director}</p>
+      <p class="dir"> ${dataMovies.imdbRating}</p>
+      <p class="dir">Director: ${dataMovies.Awards}</p>
       <img class="poster" src="${dataMovies.Poster}"/>
       
     </div>`;
