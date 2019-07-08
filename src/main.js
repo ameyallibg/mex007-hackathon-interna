@@ -62,7 +62,7 @@ const drawTop = (arrayMovies) => {
       <p class="plot">°${dataMovies.Plot}</p>
       <p class="dir">Director: ${dataMovies.Director}</p>
       <p class="dir"> ${dataMovies.imdbRating}</p>
-      <p class="dir">Director: ${dataMovies.Awards}</p>
+      <p class="dir ">Director: ${dataMovies.Awards}</p>
       <img class="poster" src="${dataMovies.Poster}"/>
       
     </div>`;

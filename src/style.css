@@ -285,7 +285,7 @@ body{
     color: white;
     margin: 1%;
     width: 30%;
-    height: 13em;
+    height: auto;
     text-align: center;
     font-size: 3.5vw;
     display: inline-block;
@@ -326,14 +326,14 @@ body{
 }
 
 .plot{
-    float: right;
-    position: absolute;
-    width: 15%;
-    margin-left: 14%;
+    /* float: right; */
+    /* position: absolute; */
+    width: 11%;
+    margin-left: 16%;
     text-align: justify;
-    font-size: 1.6vw;
-    z-index: 5;
-    margin-top: 5px;
+    font-size: 1vw;
+    /* z-index: 5; */
+    margin-top: 3%;
 
 }
 
@@ -343,6 +343,7 @@ body{
     text-align: center;
     font-family: Laila;
     font-weight: bold;
+    height:3em;
 }
 .genremov{
     text-align: center;
@@ -354,7 +355,7 @@ body{
 .dir{
     text-align: center;
     font-size: 1.5vw;
-    margin-bottom: 23px; 
+    
     font-family: Laila;  
 }
 .poster{
@@ -438,7 +439,10 @@ body{
 .firstMessage{
     display:none;
 }
+.director{
+    height: 7em;
 
+}
 }
 
 
